@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "c/DHafC8ZBSIUWLvqpZtyqbN5XSDCngfobztvVgf7CnP8TX4NxA8qoslY0/dRIEW/KG6gGZWMbMXOwBgTLR5uQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\mathnet.numerics\\4.15.0\\mathnet.numerics.4.15.0.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.chart.base\\19.4.0.41\\syncfusion.chart.base.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.chart.windows\\19.4.0.41\\syncfusion.chart.windows.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.grid.windows\\19.4.0.41\\syncfusion.grid.windows.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.grouping.base\\19.4.0.41\\syncfusion.grouping.base.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.licensing\\19.4.0.41\\syncfusion.licensing.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.shared.base\\19.4.0.41\\syncfusion.shared.base.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.shared.windows\\19.4.0.41\\syncfusion.shared.windows.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.spellchecker.base\\19.4.0.41\\syncfusion.spellchecker.base.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.tools.base\\19.4.0.41\\syncfusion.tools.base.19.4.0.41.nupkg.sha512",
+    "C:\\Users\\mpolivakha\\.nuget\\packages\\syncfusion.tools.windows\\19.4.0.41\\syncfusion.tools.windows.19.4.0.41.nupkg.sha512"
+  ],
+  "logs": []
+}

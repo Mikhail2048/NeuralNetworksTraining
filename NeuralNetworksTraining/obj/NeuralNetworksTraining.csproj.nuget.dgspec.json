@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
+        "projectName": "NeuralNetworksTraining",
+        "projectPath": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
+        "packagesPath": "C:\\Users\\mpolivakha\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\mpolivakha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "dependencies": {
+            "MathNet.Numerics": {
+              "target": "Package",
+              "version": "[4.15.0, )"
+            },
+            "Syncfusion.Chart.Base": {
+              "target": "Package",
+              "version": "[19.4.0.41, )"
+            },
+            "Syncfusion.Chart.Windows": {
+              "target": "Package",
+              "version": "[19.4.0.41, )"
+            },
+            "Syncfusion.Grid.Windows": {
+              "target": "Package",
+              "version": "[19.4.0.41, )"
+            },
+            "Syncfusion.Shared.Base": {
+              "target": "Package",
+              "version": "[19.4.0.41, )"
+            },
+            "Syncfusion.Tools.Windows": {
+              "target": "Package",
+              "version": "[19.4.0.41, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

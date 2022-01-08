@@ -1,0 +1,237 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "NeuralNetworksTraining/1.0.0": {
+        "dependencies": {
+          "MathNet.Numerics": "4.15.0",
+          "Syncfusion.Chart.Base": "19.4.0.41",
+          "Syncfusion.Chart.Windows": "19.4.0.41",
+          "Syncfusion.Grid.Windows": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41",
+          "Syncfusion.Tools.Windows": "19.4.0.41"
+        },
+        "runtime": {
+          "NeuralNetworksTraining.dll": {}
+        }
+      },
+      "MathNet.Numerics/4.15.0": {
+        "runtime": {
+          "lib/netstandard2.0/MathNet.Numerics.dll": {
+            "assemblyVersion": "4.15.0.0",
+            "fileVersion": "4.15.0.0"
+          }
+        }
+      },
+      "Syncfusion.Chart.Base/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Base.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Chart.Windows/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Chart.Base": "19.4.0.41",
+          "Syncfusion.Grouping.Base": "19.4.0.41",
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Chart.Windows.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Grid.Windows/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41",
+          "Syncfusion.Shared.Windows": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Grid.Windows.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Grouping.Base/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Grouping.Base.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Licensing/19.4.0.41": {
+        "runtime": {
+          "lib/net5.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "19.4.0.41",
+            "fileVersion": "19.4.0.41"
+          }
+        }
+      },
+      "Syncfusion.Shared.Base/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Base.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Shared.Windows/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Shared.Windows.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.SpellChecker.Base/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.SpellChecker.Base.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Tools.Base/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Tools.Base.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      },
+      "Syncfusion.Tools.Windows/19.4.0.41": {
+        "dependencies": {
+          "Syncfusion.Grid.Windows": "19.4.0.41",
+          "Syncfusion.Licensing": "19.4.0.41",
+          "Syncfusion.Shared.Base": "19.4.0.41",
+          "Syncfusion.Shared.Windows": "19.4.0.41",
+          "Syncfusion.SpellChecker.Base": "19.4.0.41",
+          "Syncfusion.Tools.Base": "19.4.0.41"
+        },
+        "runtime": {
+          "lib/net5.0-windows7.0/Syncfusion.Tools.Windows.dll": {
+            "assemblyVersion": "19.4500.0.41",
+            "fileVersion": "19.4500.0.41"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NeuralNetworksTraining/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MathNet.Numerics/4.15.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cP4QgPPiU7boMyL8npvuQyVGVYUd/JQY1AWa+Wl2f//fuJN40qwt9ABRazunZIcDLHg3SSlgD/e+3Lnp69jNTg==",
+      "path": "mathnet.numerics/4.15.0",
+      "hashPath": "mathnet.numerics.4.15.0.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Base/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-3tL7Sh4JSmiX7QVrpM8NxyNiIaqAGGdSev9MXyQu8zeZdqVemGYjR337bW3rtBXcEX4LXNYcHXNMPeV1AeXlxw==",
+      "path": "syncfusion.chart.base/19.4.0.41",
+      "hashPath": "syncfusion.chart.base.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Chart.Windows/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bHwUCrE3Q1wCSDhkHcH8ntGK8PvyhQqrKM55ExuFKiLy8wnbs+kL7UR/TKlg2xrsxpYPWkiLPvMeEJbeqFT5sg==",
+      "path": "syncfusion.chart.windows/19.4.0.41",
+      "hashPath": "syncfusion.chart.windows.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Grid.Windows/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Rvi6irW8V7E/lsEQosTGesFEnqavfBbFP1TVzBwduc5D+XDy3SxCB44oc8/eTaBvs60KhdbHW5XciuzckJBtYA==",
+      "path": "syncfusion.grid.windows/19.4.0.41",
+      "hashPath": "syncfusion.grid.windows.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Grouping.Base/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z6BYbz6bnzxIhNRnIiSJw7ubdHyuv1zvGht7bpq6Bbf/Kl0kx9ttKj/NYTKo8TP1qOdrOdOI263+xhZ1G8YuLg==",
+      "path": "syncfusion.grouping.base/19.4.0.41",
+      "hashPath": "syncfusion.grouping.base.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Licensing/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-M10JzoM14jTV5MqSr4o0JgQhB1pnahpfjtp/9PN2oNY/tWlbFa3YJUsGHmH+vyMekZ+8ZbhFnz61/bpb/AMseg==",
+      "path": "syncfusion.licensing/19.4.0.41",
+      "hashPath": "syncfusion.licensing.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Base/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Q3DrYDSUaBFhRmUO6081zMNqVMhinir8gyNG3HCXTYXKdTQX2uMlwWeKBiG15VwZIRzMyigO2S0GAtjO/PTvoQ==",
+      "path": "syncfusion.shared.base/19.4.0.41",
+      "hashPath": "syncfusion.shared.base.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Shared.Windows/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dFt0TJtkxzSof7GonDfdmk8DGvdtw8ks8+ZHBRgYPyXLNy0X1vGq0Dz+Lzaa8ITdcFD219sJCLyrADmdHqccWw==",
+      "path": "syncfusion.shared.windows/19.4.0.41",
+      "hashPath": "syncfusion.shared.windows.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.SpellChecker.Base/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KsrjuMYzsCRWPLXF0OcpLv+1N61roGn2Y8eU8P7wDVzslUmiefa01KpqEM7k5XrdfpTtaKghJkAN/lmte/n+zA==",
+      "path": "syncfusion.spellchecker.base/19.4.0.41",
+      "hashPath": "syncfusion.spellchecker.base.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Tools.Base/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvfbhxGmH/5MCo5YZHzyHhD3gtQeVAWgGvZWGDNJln0LBVh7zZhtsD1QnSM3r5EnN7Itz1UJD6J9uaLOyLmR1w==",
+      "path": "syncfusion.tools.base/19.4.0.41",
+      "hashPath": "syncfusion.tools.base.19.4.0.41.nupkg.sha512"
+    },
+    "Syncfusion.Tools.Windows/19.4.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sXzxU3o8XrVednyvFfUnMumzmw3iHqPsaGTWlN4DiIgjpKNOHgtCknIk9T8lpsDJSCg62VkW/d8F9HVLtbbYxA==",
+      "path": "syncfusion.tools.windows/19.4.0.41",
+      "hashPath": "syncfusion.tools.windows.19.4.0.41.nupkg.sha512"
+    }
+  }
+}
