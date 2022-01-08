@@ -5,17 +5,18 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\mpolivakha\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\Азалия\.nuget\packages\;C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.0.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\mpolivakha\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\Азалия\.nuget\packages\" />
+    <SourceRoot Include="C:\Program Files (x86)\Microsoft Visual Studio\Shared\NuGetPackages\" />
   </ItemGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgSyncfusion_Shared_Base Condition=" '$(PkgSyncfusion_Shared_Base)' == '' ">C:\Users\mpolivakha\.nuget\packages\syncfusion.shared.base\19.4.0.41</PkgSyncfusion_Shared_Base>
-    <PkgSyncfusion_Grid_Windows Condition=" '$(PkgSyncfusion_Grid_Windows)' == '' ">C:\Users\mpolivakha\.nuget\packages\syncfusion.grid.windows\19.4.0.41</PkgSyncfusion_Grid_Windows>
-    <PkgSyncfusion_Tools_Windows Condition=" '$(PkgSyncfusion_Tools_Windows)' == '' ">C:\Users\mpolivakha\.nuget\packages\syncfusion.tools.windows\19.4.0.41</PkgSyncfusion_Tools_Windows>
-    <PkgSyncfusion_Chart_Windows Condition=" '$(PkgSyncfusion_Chart_Windows)' == '' ">C:\Users\mpolivakha\.nuget\packages\syncfusion.chart.windows\19.4.0.41</PkgSyncfusion_Chart_Windows>
+    <PkgSyncfusion_Shared_Base Condition=" '$(PkgSyncfusion_Shared_Base)' == '' ">C:\Users\Азалия\.nuget\packages\syncfusion.shared.base\19.4.0.41</PkgSyncfusion_Shared_Base>
+    <PkgSyncfusion_Grid_Windows Condition=" '$(PkgSyncfusion_Grid_Windows)' == '' ">C:\Users\Азалия\.nuget\packages\syncfusion.grid.windows\19.4.0.41</PkgSyncfusion_Grid_Windows>
+    <PkgSyncfusion_Tools_Windows Condition=" '$(PkgSyncfusion_Tools_Windows)' == '' ">C:\Users\Азалия\.nuget\packages\syncfusion.tools.windows\19.4.0.41</PkgSyncfusion_Tools_Windows>
+    <PkgSyncfusion_Chart_Windows Condition=" '$(PkgSyncfusion_Chart_Windows)' == '' ">C:\Users\Азалия\.nuget\packages\syncfusion.chart.windows\19.4.0.41</PkgSyncfusion_Chart_Windows>
   </PropertyGroup>
 </Project>

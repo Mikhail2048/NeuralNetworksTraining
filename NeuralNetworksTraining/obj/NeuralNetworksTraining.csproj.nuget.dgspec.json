@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj": {}
+    "C:\\Users\\Азалия\\Source\\Repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj": {
+    "C:\\Users\\Азалия\\Source\\Repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
+        "projectUniqueName": "C:\\Users\\Азалия\\Source\\Repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
         "projectName": "NeuralNetworksTraining",
-        "projectPath": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
-        "packagesPath": "C:\\Users\\mpolivakha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mpolivakha\\source\\repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\obj\\",
+        "projectPath": "C:\\Users\\Азалия\\Source\\Repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\NeuralNetworksTraining.csproj",
+        "packagesPath": "C:\\Users\\Азалия\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Азалия\\Source\\Repos\\NeuralNetworksTraining\\NeuralNetworksTraining\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\mpolivakha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Азалия\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -47,9 +47,9 @@ namespace NeuralNetworksTraining
         private void setUpRunEpochCounter() {
             runEpochCounter = new Label();
             displayCurrentEpochCounter();
-            runEpochCounter.Location = new Point(33, 290);
+            runEpochCounter.Location = new Point(30, 290);
             runEpochCounter.TextAlign = ContentAlignment.MiddleRight;
-            runEpochCounter.Size = new Size(175, 30);
+            runEpochCounter.Size = new Size(220, 30);
             runEpochCounter.Font = new Font(Label.DefaultFont, FontStyle.Bold);
             Controls.Add(runEpochCounter);
         }
@@ -149,8 +149,8 @@ namespace NeuralNetworksTraining
         private void setUpPredictedValueLabel() {
             predictedValueLabel = new Label();
             displayPredictedValue(double.NaN);
-            predictedValueLabel.Location = new Point(50, 240);
-            predictedValueLabel.Size = new Size(175, 30);
+            predictedValueLabel.Location = new Point(35, 240);
+            predictedValueLabel.Size = new Size(195, 30);
             predictedValueLabel.TextAlign = ContentAlignment.MiddleCenter;
             predictedValueLabel.Font = new Font(Label.DefaultFont, FontStyle.Bold);
             Controls.Add(predictedValueLabel);
