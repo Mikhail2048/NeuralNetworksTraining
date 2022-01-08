@@ -32,17 +32,21 @@ namespace NeuralNetworksTraining
 
         public void addInputValuesSet(int[] additionalInputValues) {
             for (int index = 0; index < additionalInputValues.Length && currentInputValuesIndex < inputValues.Length;) {
-                inputValues[currentInputValuesIndex] = additionalInputValues[index];
-                currentInputValuesIndex++;
-                index++;
+                if (!ArrayInputParser.getInstance().elementAlreadyPresentInArray(inputValues, additionalInputValues[index])) {
+                    inputValues[currentInputValuesIndex] = additionalInputValues[index];
+                    currentInputValuesIndex++;
+                    index++;
+                }
             }
         }
 
         public void addOutputValuesSet(int[] additionalOutputValues) {
             for (int index = 0; index < additionalOutputValues.Length && currentOutputValuesIndex < outputValues.Length;) {
-                outputValues[currentOutputValuesIndex] = additionalOutputValues[index];
-                currentOutputValuesIndex++;
-                index++;
+                if (!ArrayInputParser.getInstance().elementAlreadyPresentInArray(outputValues, additionalOutputValues[index])) {
+                    outputValues[currentOutputValuesIndex] = additionalOutputValues[index];
+                    currentOutputValuesIndex++;
+                    index++;
+                }
             }
         }
 

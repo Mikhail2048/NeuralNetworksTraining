@@ -7,7 +7,16 @@ using System.Threading.Tasks;
 namespace NeuralNetworksTraining
 {
     internal class ArrayInputParser {
-        public ArrayInputParser() { }
+        private ArrayInputParser() { }
+
+        private static ArrayInputParser? instance;
+
+        public static ArrayInputParser getInstance() {
+            if (instance == null) {
+                instance = new ArrayInputParser();
+            }
+            return instance;
+        }
 
         public int[]? extractIntValuesFromArray(string[] array) {
             int[] resultArray = new int[getAmountOfNonEmptyElements(array)];
@@ -25,6 +34,17 @@ namespace NeuralNetworksTraining
                 }
             }
             return resultArray;
+        }
+
+        public bool elementAlreadyPresentInArray(int[] array, int value) {
+            if (array != null && array.Length != 0) {
+                for (int i = 0; i < array.Length; i++) {
+                    if (array[i] == value) {
+                        return true;
+                    } 
+                }
+            }
+            return false;
         }
 
         private int getAmountOfNonEmptyElements(string[] array) {

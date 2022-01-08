@@ -158,13 +158,19 @@ namespace NeuralNetworksTraining
 
         private void getPrediction(object? sender, EventArgs? eventArgs) {
             int testInputAsDecimal = (int) testInputValue.Value;
-            int validResult = (int) validOutputForTestValue.Value;
-            double predictedResultValue = neuralNetwork.Calculate(testInputAsDecimal);
-            double deviation = Math.Abs(validResult - predictedResultValue) / validResult;
-            displaySampleErrorValue(deviation);
-            displayPredictedValue(predictedResultValue);
-            this.chartControl1.Series[1].Points.Add(testInputAsDecimal, predictedResultValue);
-            this.chartControl1.Series[0].Points.Add(testInputAsDecimal, validResult);
+            int expectedValidOutput = (int) validOutputForTestValue.Value;
+            InputOutputDeviationModel iomodel = new InputOutputDeviationModel(new int[] {testInputAsDecimal}, new int[] {expectedValidOutput});
+            NeuralNetworkController.getInstance().predictValue(iomodel);   
+            adjustChartWithTestResults(iomodel);
+        }
+
+        private void adjustChartWithTestResults(InputOutputDeviationModel inputOutputDeviationModel) {
+            displaySampleErrorValue(inputOutputDeviationModel.getDeviance());
+            displayPredictedValue(inputOutputDeviationModel.getPredictedResult());
+            chartControl1.Series[1].Points.Add(inputOutputDeviationModel.getInputValues()[0], inputOutputDeviationModel.getPredictedResult());
+            chartControl1.Series[0].Points.Add(inputOutputDeviationModel.getInputValues()[0], inputOutputDeviationModel.getOutputValues()[0]);
+            neuralNetwork.addInputValuesSet(inputOutputDeviationModel.getInputValues());
+            neuralNetwork.addOutputValuesSet(inputOutputDeviationModel.getOutputValues());
         }
 
         private void startNewTrainingEpoch(object? sender, EventArgs? eventArguments) {
@@ -178,12 +184,9 @@ namespace NeuralNetworksTraining
         }
 
         private void doStartNewTrainingEpoch(int[] inputValuesAsInteger, int[] outputValuesAsInteger) {
-            if (inputValuesAsInteger.Length != outputValuesAsInteger.Length) {
-                MessageBox.Show("Amount of values present in input: " + inputValuesAsInteger.Length + ", in output : " + outputValuesAsInteger.Length + " - should be the same numbers");
-            } else {
-                neuralNetwork.addInputValuesSet(inputValuesAsInteger);
-                neuralNetwork.addOutputValuesSet(outputValuesAsInteger);
-                neuralNetwork.runTrainIteration();
+            InputOutputModel inputOutputModel = new InputOutputModel(inputValuesAsInteger, outputValuesAsInteger);
+            bool isSuccessfullIteration = NeuralNetworkController.getInstance().doStartNewTrainingEpoch(inputOutputModel);
+            if (isSuccessfullIteration) {
                 currentEpochCounter++;
                 displayCurrentEpochCounter();
                 redrawChart();
@@ -203,7 +206,7 @@ namespace NeuralNetworksTraining
         private int[]? extractIntValuesFromInputArray() {
             string[] inputValuesStringArray = inputValues.Text.Trim().Split(' ');
             if (inputValuesStringArray.Length != 0) {
-                return new ArrayInputParser().extractIntValuesFromArray(inputValuesStringArray);
+                return ArrayInputParser.getInstance().extractIntValuesFromArray(inputValuesStringArray);
             }
             return null;
         }        
@@ -211,7 +214,7 @@ namespace NeuralNetworksTraining
         private int[]? extractIntValuesFromOutputArray() {
             string[] outputValuesArray = expectedResultTextBox.Text.Split(' ');
             if (outputValuesArray.Length != 0) {
-                return new ArrayInputParser().extractIntValuesFromArray(outputValuesArray);
+                return ArrayInputParser.getInstance().extractIntValuesFromArray(outputValuesArray);
             }
             return null;
         }
